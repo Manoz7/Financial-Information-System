@@ -266,10 +266,14 @@
     <Compile Include="Services\CustomerOrderService.cs" />
     <Compile Include="Services\InvoiceAPService.cs" />
     <Compile Include="Services\PaymentAPService.cs" />
+    <Compile Include="Services\PaymentService.cs" />
     <Compile Include="Services\PayrollService.cs" />
     <Compile Include="Services\PurchaseOrderService.cs" />
     <Compile Include="Services\RawMaterialService.cs" />
     <Compile Include="Services\Vendorservice.cs" />
+    <Compile Include="Utils\FormValidator.cs" />
+    <Compile Include="Utils\MessageHelper.cs" />
+    <Compile Include="Utils\StatusColor.cs" />
     <EmbeddedResource Include="Forms\TestDashboard.resx">
       <DependentUpon>TestDashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -296,9 +300,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Utils\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Database\Scripts\fis_schema.sql" />
     <Content Include="Database\Scripts\fis_seed_data.sql" />

@@ -3,19 +3,35 @@
   "WorkspaceRootPath": "C:\\Users\\manoj\\source\\repos\\FIS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|c:\\users\\manoj\\source\\repos\\fis\\fis\\utils\\statuscolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\utils\\statuscolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|c:\\users\\manoj\\source\\repos\\fis\\fis\\utils\\formvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\utils\\formvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|c:\\users\\manoj\\source\\repos\\fis\\fis\\utils\\messagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\utils\\messagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|c:\\users\\manoj\\source\\repos\\fis\\fis\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|c:\\users\\manoj\\source\\repos\\fis\\fis\\forms\\testdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\testdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|c:\\users\\manoj\\source\\repos\\fis\\fis\\forms\\testdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|C:\\Users\\manoj\\source\\repos\\FIS\\fis\\forms\\testdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\testdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|c:\\users\\manoj\\source\\repos\\fis\\fis\\forms\\testdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|C:\\Users\\manoj\\source\\repos\\FIS\\fis\\forms\\testdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\testdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|c:\\users\\manoj\\source\\repos\\fis\\fis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|C:\\Users\\manoj\\source\\repos\\FIS\\fis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,11 +42,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StatusColor.cs",
+              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Utils\\StatusColor.cs",
+              "RelativeDocumentMoniker": "FIS\\Utils\\StatusColor.cs",
+              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Utils\\StatusColor.cs",
+              "RelativeToolTip": "FIS\\Utils\\StatusColor.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAowJQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T21:40:13.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormValidator.cs",
+              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Utils\\FormValidator.cs",
+              "RelativeDocumentMoniker": "FIS\\Utils\\FormValidator.cs",
+              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Utils\\FormValidator.cs",
+              "RelativeToolTip": "FIS\\Utils\\FormValidator.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAkwNYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T21:40:00.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MessageHelper.cs",
+              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Utils\\MessageHelper.cs",
+              "RelativeDocumentMoniker": "FIS\\Utils\\MessageHelper.cs",
+              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Utils\\MessageHelper.cs",
+              "RelativeToolTip": "FIS\\Utils\\MessageHelper.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAkwE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T21:39:38.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Services\\PaymentService.cs",
+              "RelativeDocumentMoniker": "FIS\\Services\\PaymentService.cs",
+              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Services\\PaymentService.cs",
+              "RelativeToolTip": "FIS\\Services\\PaymentService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAwDQAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T21:36:28.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Program.cs",
               "RelativeDocumentMoniker": "FIS\\Program.cs",
@@ -38,12 +106,11 @@
               "RelativeToolTip": "FIS\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T17:22:26.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T17:22:26.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "TestDashboard.Designer.cs",
               "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\TestDashboard.Designer.cs",
               "RelativeDocumentMoniker": "FIS\\Forms\\TestDashboard.Designer.cs",
@@ -51,33 +118,31 @@
               "RelativeToolTip": "FIS\\Forms\\TestDashboard.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T17:21:53.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T17:21:53.77Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "TestDashboard.cs",
               "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\TestDashboard.cs",
               "RelativeDocumentMoniker": "FIS\\Forms\\TestDashboard.cs",
               "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\TestDashboard.cs",
               "RelativeToolTip": "FIS\\Forms\\TestDashboard.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAIAwwBYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAIAwwBAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T17:20:31.529Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "TestDashboard.cs [Design]",
               "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\TestDashboard.cs",
               "RelativeDocumentMoniker": "FIS\\Forms\\TestDashboard.cs",
               "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\TestDashboard.cs [Design]",
               "RelativeToolTip": "FIS\\Forms\\TestDashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T17:19:10.959Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-04-16T17:19:10.959Z"
             }
           ]
         }
