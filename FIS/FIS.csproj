@@ -241,6 +241,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\TestDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TestDashboard.Designer.cs">
+      <DependentUpon>TestDashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\CustomerBill.cs" />
     <Compile Include="Models\CustomerOrder.cs" />
@@ -264,6 +270,9 @@
     <Compile Include="Services\PurchaseOrderService.cs" />
     <Compile Include="Services\RawMaterialService.cs" />
     <Compile Include="Services\Vendorservice.cs" />
+    <EmbeddedResource Include="Forms\TestDashboard.resx">
+      <DependentUpon>TestDashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -288,7 +297,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Forms\" />
     <Folder Include="Utils\" />
   </ItemGroup>
   <ItemGroup>
