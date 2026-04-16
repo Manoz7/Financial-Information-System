@@ -281,6 +281,20 @@ namespace FIS.Services
             }
         }
 
+        /// <summary>
+        /// Returns the number of payroll records with Status = 'Pending'.
+        /// This tells Veronica how many employees are waiting to be paid.
+        /// Used by the dashboard KPI card.
+        /// </summary>
+        public int GetPendingCount()
+        {
+            string sql = "SELECT COUNT(*) FROM payroll_record WHERE Status = 'Pending';";
+            object result = FIS.Database.DBHelper.ExecuteScalar(sql);
+            return result == null || result == System.DBNull.Value
+                ? 0
+                : System.Convert.ToInt32(result);
+        }
+
         // ── Private helper — maps a DataRow to a PayrollRecord model ─────────
         private PayrollRecord MapRowToPayrollRecord(System.Data.DataRow row)
         {

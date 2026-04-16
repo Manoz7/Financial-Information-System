@@ -229,6 +229,23 @@ namespace FIS.Services
             }
         }
 
+        /// <summary>
+        /// Returns the count of raw materials where QuantityOnHand is below
+        /// their ReorderThreshold. Drives the "low stock" dashboard KPI.
+        /// </summary>
+        public int GetLowStockCount()
+        {
+            // TEACHING: This query compares two columns from the same table.
+            // No join needed — MySQL evaluates the WHERE clause row by row.
+            string sql = @"SELECT COUNT(*)
+                   FROM raw_material
+                   WHERE QuantityOnHand < ReorderThreshold;";
+            object result = FIS.Database.DBHelper.ExecuteScalar(sql);
+            return result == null || result == System.DBNull.Value
+                ? 0
+                : System.Convert.ToInt32(result);
+        }
+
         // ── Weekly report: raw materials delivered ────────────────────────────
         // Case §2.1.4: "a weekly report showing new orders that have been delivered"
         // Returns materials whose quantity was updated in the past 7 days,

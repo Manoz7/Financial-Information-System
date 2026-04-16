@@ -293,6 +293,35 @@ namespace FIS.Services
             return list;
         }
 
+        /// <summary>
+        /// Returns the number of customer bills with Status = 'Overdue'.
+        /// Used by the dashboard KPI card.
+        /// </summary>
+        public int GetOverdueCount()
+        {
+            string sql = "SELECT COUNT(*) FROM customer_bill WHERE Status = 'Overdue';";
+            object result = FIS.Database.DBHelper.ExecuteScalar(sql);
+            return result == null || result == System.DBNull.Value
+                ? 0
+                : System.Convert.ToInt32(result);
+        }
+
+        /// <summary>
+        /// Returns the sum of BalanceRemaining across all unpaid, partially-paid,
+        /// and overdue bills. This is the total the company is still owed.
+        /// Used by the dashboard KPI card.
+        /// </summary>
+        public decimal GetOutstandingTotal()
+        {
+            string sql = @"SELECT COALESCE(SUM(BalanceRemaining), 0)
+                   FROM customer_bill
+                   WHERE Status IN ('Unpaid', 'PartiallyPaid', 'Overdue');";
+            object result = FIS.Database.DBHelper.ExecuteScalar(sql);
+            return result == null || result == System.DBNull.Value
+                ? 0m
+                : System.Convert.ToDecimal(result);
+        }
+
         // ── Private helper — maps a DataRow to a CustomerBill model ──────────
         private CustomerBill MapRowToCustomerBill(System.Data.DataRow row)
         {

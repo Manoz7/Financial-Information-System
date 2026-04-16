@@ -304,6 +304,38 @@ namespace FIS.Services
             return list;
         }
 
+        /// <summary>
+        /// Returns the number of invoices with Status = 'Overdue'.
+        /// Used by the dashboard KPI card.
+        /// </summary>
+        public int GetOverdueCount()
+        {
+            // TEACHING: ExecuteScalar returns a single value — perfect for COUNT.
+            // We cast to int via Convert.ToInt32 because ExecuteScalar returns object.
+            string sql = "SELECT COUNT(*) FROM invoice_ap WHERE Status = 'Overdue';";
+            object result = FIS.Database.DBHelper.ExecuteScalar(sql);
+            return result == null || result == System.DBNull.Value
+                ? 0
+                : System.Convert.ToInt32(result);
+        }
+
+        /// <summary>
+        /// Returns the sum of TotalAmount for all unpaid and overdue invoices.
+        /// Used by the dashboard KPI card.
+        /// </summary>
+        public decimal GetUnpaidTotal()
+        {
+            // TEACHING: COALESCE(SUM(...), 0) handles the case where there are
+            // zero rows — SUM of nothing is NULL in SQL, COALESCE turns it to 0.
+            string sql = @"SELECT COALESCE(SUM(TotalAmount), 0)
+                   FROM invoice_ap
+                   WHERE Status IN ('Unpaid', 'Overdue');";
+            object result = FIS.Database.DBHelper.ExecuteScalar(sql);
+            return result == null || result == System.DBNull.Value
+                ? 0m
+                : System.Convert.ToDecimal(result);
+        }
+
         // ── Private helper — maps a DataRow to an InvoiceAP model ────────────
         private InvoiceAP MapRowToInvoice(System.Data.DataRow row)
         {

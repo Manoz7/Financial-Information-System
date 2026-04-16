@@ -132,3 +132,4 @@ C:\Users\manoj\source\repos\FIS\FIS\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.r
 C:\Users\manoj\source\repos\FIS\FIS\obj\Debug\FIS.csproj.Up2Date
 C:\Users\manoj\source\repos\FIS\FIS\obj\Debug\FIS.exe
 C:\Users\manoj\source\repos\FIS\FIS\obj\Debug\FIS.pdb
+C:\Users\manoj\source\repos\FIS\FIS\obj\Debug\FIS.Forms.RawMaterialDetailPanel.resources

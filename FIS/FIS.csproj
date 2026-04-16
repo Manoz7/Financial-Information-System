@@ -241,11 +241,60 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\TestDashboard.cs">
+    <Compile Include="Forms\APReportPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\APReportPanel.Designer.cs">
+      <DependentUpon>APReportPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ARReportPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ARReportPanel.Designer.cs">
+      <DependentUpon>ARReportPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CustomerBillDetailPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\CustomerBillListPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\CustomerOrderListPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\InvoiceDetailPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\InvoiceListPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\InvoiceListPanel.Designer.cs">
+      <DependentUpon>InvoiceListPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\TestDashboard.Designer.cs">
-      <DependentUpon>TestDashboard.cs</DependentUpon>
+    <Compile Include="Forms\MainDashboard.Designer.cs">
+      <DependentUpon>MainDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PaymentPreferencePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\PayrollListPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\PurchaseOrderListPanel.cs" />
+    <Compile Include="Forms\RawMaterialDetailPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\RawMaterialListPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\VendorDetailPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\VendorListPanel.cs">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\CustomerBill.cs" />
@@ -274,8 +323,8 @@
     <Compile Include="Utils\FormValidator.cs" />
     <Compile Include="Utils\MessageHelper.cs" />
     <Compile Include="Utils\StatusColor.cs" />
-    <EmbeddedResource Include="Forms\TestDashboard.resx">
-      <DependentUpon>TestDashboard.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\RawMaterialDetailPanel.resx">
+      <DependentUpon>RawMaterialDetailPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
