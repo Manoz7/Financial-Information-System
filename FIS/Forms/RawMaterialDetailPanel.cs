@@ -10,6 +10,8 @@ namespace FIS.Forms
     // Add (id=0) or Edit (id>0) a raw material record.
     // Allows updating: name, unit, reorder settings, preferred vendor, unit price.
     // QuantityOnHand is shown read-only — POPS owns that value.
+    // Best price comparison box closes §2.1.1: "WBS is not certain if they are
+    // purchasing raw materials at the best price."
     public class RawMaterialDetailPanel : UserControl
     {
         public event Action OnSaved;
@@ -28,6 +30,8 @@ namespace FIS.Forms
         private TextBox _txtReorderQty;
         private ComboBox _cboVendor;
         private TextBox _txtUnitPrice;
+        private Panel _pnlPriceInfo;          // best-price comparison box
+        private Panel _pnlCard;               // card reference needed by LoadExisting
         private ErrorProvider _err;
 
         public RawMaterialDetailPanel(int materialId)
@@ -73,54 +77,54 @@ namespace FIS.Forms
             });
 
             // ── Card ──────────────────────────────────────────────────────────
-            var pnlCard = new Panel
+            _pnlCard = new Panel
             {
                 Location = new Point(40, 84),
-                Size = new Size(660, 500),
+                Size = new Size(660, 560),
                 BackColor = Color.White
             };
-            pnlCard.Paint += (s, e) =>
+            _pnlCard.Paint += (s, e) =>
                 e.Graphics.DrawLine(
                     new Pen(Color.FromArgb(26, 55, 100), 4),
-                    0, 0, pnlCard.Width, 0);
+                    0, 0, _pnlCard.Width, 0);
 
             int y = 24; int lx = 30; int fx = 220; int fw = 380;
 
             // ── Section: Basic Info ───────────────────────────────────────────
-            AddSectionTitle(pnlCard, "Material Info", lx, y); y += 28;
+            AddSectionTitle(_pnlCard, "Material Info", lx, y); y += 28;
 
-            AddLabel(pnlCard, "Material Name *", lx, y);
-            _txtName = MakeTxt(pnlCard, fx, y, fw, true); y += 40;
+            AddLabel(_pnlCard, "Material Name *", lx, y);
+            _txtName = MakeTxt(_pnlCard, fx, y, fw, true); y += 40;
 
-            AddLabel(pnlCard, "Unit of Measure *", lx, y);
-            _txtUnit = MakeTxt(pnlCard, fx, y, 120, true);
-            AddHint(pnlCard, "e.g. each, kg, box", fx + 130, y);
+            AddLabel(_pnlCard, "Unit of Measure *", lx, y);
+            _txtUnit = MakeTxt(_pnlCard, fx, y, 120, true);
+            AddHint(_pnlCard, "e.g. each, kg, box", fx + 130, y);
             y += 40;
 
             // Quantity on hand — read-only, owned by POPS
-            AddLabel(pnlCard, "Quantity On Hand", lx, y);
-            _txtQuantityOnHand = MakeTxt(pnlCard, fx, y, 120, false);
+            AddLabel(_pnlCard, "Quantity On Hand", lx, y);
+            _txtQuantityOnHand = MakeTxt(_pnlCard, fx, y, 120, false);
             _txtQuantityOnHand.BackColor = Color.FromArgb(245, 246, 248);
-            AddHint(pnlCard, "Managed by POPS — read only", fx + 130, y);
+            AddHint(_pnlCard, "Managed by POPS — read only", fx + 130, y);
             y += 46;
 
             // ── Section: Reorder Settings ─────────────────────────────────────
-            AddSectionTitle(pnlCard, "Reorder Settings", lx, y); y += 28;
+            AddSectionTitle(_pnlCard, "Reorder Settings", lx, y); y += 28;
 
-            AddLabel(pnlCard, "Reorder Threshold *", lx, y);
-            _txtThreshold = MakeTxt(pnlCard, fx, y, 120, true);
-            AddHint(pnlCard, "Auto-reorder fires below this qty", fx + 130, y);
+            AddLabel(_pnlCard, "Reorder Threshold *", lx, y);
+            _txtThreshold = MakeTxt(_pnlCard, fx, y, 120, true);
+            AddHint(_pnlCard, "Auto-reorder fires below this qty", fx + 130, y);
             y += 40;
 
-            AddLabel(pnlCard, "Reorder Quantity *", lx, y);
-            _txtReorderQty = MakeTxt(pnlCard, fx, y, 120, true);
-            AddHint(pnlCard, "How many units to order each time", fx + 130, y);
+            AddLabel(_pnlCard, "Reorder Quantity *", lx, y);
+            _txtReorderQty = MakeTxt(_pnlCard, fx, y, 120, true);
+            AddHint(_pnlCard, "How many units to order each time", fx + 130, y);
             y += 46;
 
             // ── Section: Vendor & Pricing ─────────────────────────────────────
-            AddSectionTitle(pnlCard, "Preferred Vendor & Price", lx, y); y += 28;
+            AddSectionTitle(_pnlCard, "Preferred Vendor & Price", lx, y); y += 28;
 
-            AddLabel(pnlCard, "Preferred Vendor *", lx, y);
+            AddLabel(_pnlCard, "Preferred Vendor *", lx, y);
             _cboVendor = new ComboBox
             {
                 Location = new Point(fx, y),
@@ -129,13 +133,64 @@ namespace FIS.Forms
                 Font = new Font("Segoe UI", 9.5F)
             };
             LoadVendors();
-            pnlCard.Controls.Add(_cboVendor);
+            _pnlCard.Controls.Add(_cboVendor);
             y += 40;
 
-            AddLabel(pnlCard, "Unit Price *", lx, y);
-            _txtUnitPrice = MakeTxt(pnlCard, fx, y, 120, true);
-            AddHint(pnlCard, "Price per unit from this vendor", fx + 130, y);
-            y += 50;
+            AddLabel(_pnlCard, "Unit Price *", lx, y);
+            _txtUnitPrice = MakeTxt(_pnlCard, fx, y, 120, true);
+            AddHint(_pnlCard, "Price per unit from this vendor", fx + 130, y);
+            y += 46;
+
+            // ── Best Price Comparison Box ─────────────────────────────────────
+            // Case §2.1.1: "WBS is not certain if they are purchasing raw
+            // materials at the best price."
+            // Shows whether the current preferred vendor is the cheapest option.
+            // Only visible in edit mode — new materials have nothing to compare yet.
+            _pnlPriceInfo = new Panel
+            {
+                Location = new Point(lx, y),
+                Size = new Size(580, 70),
+                BackColor = Color.FromArgb(240, 248, 255),
+                Visible = !_isNew
+            };
+            _pnlPriceInfo.Paint += (s, e) =>
+            {
+                e.Graphics.DrawRectangle(
+                    new Pen(Color.FromArgb(180, 210, 240), 1),
+                    0, 0, _pnlPriceInfo.Width - 1, _pnlPriceInfo.Height - 1);
+                e.Graphics.DrawLine(
+                    new Pen(Color.FromArgb(26, 100, 180), 3),
+                    0, 0, 0, _pnlPriceInfo.Height);
+            };
+
+            _pnlPriceInfo.Controls.Add(new Label
+            {
+                Text = "PRICE COMPARISON",
+                Font = new Font("Segoe UI", 7F, FontStyle.Bold),
+                ForeColor = Color.FromArgb(80, 120, 180),
+                AutoSize = true,
+                Location = new Point(12, 8)
+            });
+            _pnlPriceInfo.Controls.Add(new Label
+            {
+                Name = "lblBestPrice",
+                Text = "Loading...",
+                Font = new Font("Segoe UI", 9F),
+                ForeColor = Color.FromArgb(40, 60, 90),
+                AutoSize = true,
+                Location = new Point(12, 26)
+            });
+            _pnlPriceInfo.Controls.Add(new Label
+            {
+                Name = "lblPriceAdvice",
+                Text = "",
+                Font = new Font("Segoe UI", 8.5F, FontStyle.Bold),
+                AutoSize = true,
+                Location = new Point(12, 46)
+            });
+
+            _pnlCard.Controls.Add(_pnlPriceInfo);
+            y += 82;
 
             // ── Buttons ───────────────────────────────────────────────────────
             var btnSave = new Button
@@ -151,7 +206,7 @@ namespace FIS.Forms
             };
             btnSave.FlatAppearance.BorderSize = 0;
             btnSave.Click += BtnSave_Click;
-            pnlCard.Controls.Add(btnSave);
+            _pnlCard.Controls.Add(btnSave);
 
             var btnBack = new Button
             {
@@ -166,9 +221,9 @@ namespace FIS.Forms
             };
             btnBack.FlatAppearance.BorderColor = Color.FromArgb(200, 210, 225);
             btnBack.Click += (s, e) => NavigateBack();
-            pnlCard.Controls.Add(btnBack);
+            _pnlCard.Controls.Add(btnBack);
 
-            this.Controls.Add(pnlCard);
+            this.Controls.Add(_pnlCard);
             this.Controls.Add(pnlHeader);
         }
 
@@ -193,6 +248,57 @@ namespace FIS.Forms
                     _cboVendor.SelectedItem = item;
                     break;
                 }
+            }
+
+            // Load best price comparison
+            LoadBestPriceInfo(m);
+        }
+
+        // ── Best price comparison ─────────────────────────────────────────────
+        // Calls GetBestPriceVendor to find the cheapest active vendor for this
+        // material and compares it to the current preferred vendor.
+        // Green  = current vendor is already the best option.
+        // Amber  = a cheaper vendor exists — Veronica should consider switching.
+        private void LoadBestPriceInfo(RawMaterial m)
+        {
+            try
+            {
+                var lblBestPrice = _pnlPriceInfo.Controls["lblBestPrice"] as Label;
+                var lblPriceAdvice = _pnlPriceInfo.Controls["lblPriceAdvice"] as Label;
+                if (lblBestPrice == null || lblPriceAdvice == null) return;
+
+                Vendor bestVendor = _vendorService.GetBestPriceVendor(_materialId);
+                if (bestVendor == null)
+                {
+                    lblBestPrice.Text = "No active vendor found for this material.";
+                    lblPriceAdvice.Text = "";
+                    return;
+                }
+
+                bool isCurrentVendorBest = bestVendor.VendorId == m.VendorId;
+
+                lblBestPrice.Text =
+                    $"Best available price: {m.UnitPrice:C} / {m.UnitOfMeasure}   " +
+                    $"from {bestVendor.VendorName}";
+
+                if (isCurrentVendorBest)
+                {
+                    lblPriceAdvice.Text = "✓ Current vendor offers the best available price.";
+                    lblPriceAdvice.ForeColor = Color.FromArgb(30, 130, 60);
+                }
+                else
+                {
+                    lblPriceAdvice.Text =
+                        $"⚠ Consider switching to {bestVendor.VendorName} for a better price.";
+                    lblPriceAdvice.ForeColor = Color.FromArgb(160, 100, 0);
+                }
+
+                _pnlPriceInfo.Visible = true;
+            }
+            catch
+            {
+                // Non-critical — hide the box if the lookup fails for any reason
+                _pnlPriceInfo.Visible = false;
             }
         }
 
@@ -229,7 +335,6 @@ namespace FIS.Forms
             }
             else
             {
-                // Update reorder settings and vendor/price separately
                 bool s1 = _materialService.UpdateReorderSettings(
                     _materialId,
                     decimal.Parse(_txtThreshold.Text.Trim()),
@@ -333,18 +438,6 @@ namespace FIS.Forms
             public string Name { get; }
             public VendorItem(int id, string name) { Id = id; Name = name; }
             public override string ToString() => Name;
-        }
-
-        private void InitializeComponent()
-        {
-            this.SuspendLayout();
-            // 
-            // RawMaterialDetailPanel
-            // 
-            this.Name = "RawMaterialDetailPanel";
-            this.Size = new System.Drawing.Size(416, 343);
-            this.ResumeLayout(false);
-
         }
     }
 }

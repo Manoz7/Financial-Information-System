@@ -244,14 +244,8 @@
     <Compile Include="Forms\APReportPanel.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Forms\APReportPanel.Designer.cs">
-      <DependentUpon>APReportPanel.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\ARReportPanel.cs">
       <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Forms\ARReportPanel.Designer.cs">
-      <DependentUpon>ARReportPanel.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\CustomerBillDetailPanel.cs">
       <SubType>UserControl</SubType>
@@ -283,7 +277,12 @@
     <Compile Include="Forms\PayrollListPanel.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Forms\PurchaseOrderListPanel.cs" />
+    <Compile Include="Forms\PurchaseOrderDetailPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\PurchaseOrderListPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Forms\RawMaterialDetailPanel.cs">
       <SubType>UserControl</SubType>
     </Compile>

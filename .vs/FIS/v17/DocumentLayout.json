@@ -3,100 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\manoj\\source\\repos\\FIS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|c:\\users\\manoj\\source\\repos\\fis\\fis\\forms\\customerorderlistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\customerorderlistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|c:\\users\\manoj\\source\\repos\\fis\\fis\\database\\scripts\\fis_seed_data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\database\\scripts\\fis_seed_data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|c:\\users\\manoj\\source\\repos\\fis\\fis\\forms\\customerorderlistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\customerorderlistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|c:\\users\\manoj\\source\\repos\\fis\\fis\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|c:\\users\\manoj\\source\\repos\\fis\\fis\\forms\\customerbilllistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\customerbilllistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|C:\\Users\\manoj\\source\\repos\\FIS\\fis\\forms\\rawmateriallistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\rawmateriallistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|C:\\Users\\manoj\\source\\repos\\FIS\\fis\\forms\\rawmateriallistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\rawmateriallistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|C:\\Users\\manoj\\source\\repos\\FIS\\fis\\forms\\rawmaterialdetailpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\rawmaterialdetailpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|C:\\Users\\manoj\\source\\repos\\FIS\\fis\\forms\\rawmaterialdetailpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\rawmaterialdetailpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|C:\\Users\\manoj\\source\\repos\\FIS\\fis\\forms\\purchaseorderlistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\purchaseorderlistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|C:\\Users\\manoj\\source\\repos\\FIS\\fis\\forms\\customerbilldetailpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\customerbilldetailpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|C:\\Users\\manoj\\source\\repos\\FIS\\fis\\forms\\customerbilldetailpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\customerbilldetailpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|C:\\Users\\manoj\\source\\repos\\FIS\\fis\\forms\\arreportpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\arreportpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|C:\\Users\\manoj\\source\\repos\\FIS\\fis\\forms\\arreportpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\arreportpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|C:\\Users\\manoj\\source\\repos\\FIS\\fis\\forms\\apreportpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\apreportpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|C:\\Users\\manoj\\source\\repos\\FIS\\fis\\forms\\apreportpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\apreportpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|C:\\Users\\manoj\\source\\repos\\FIS\\fis\\forms\\paymentpreferencepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\paymentpreferencepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|C:\\Users\\manoj\\source\\repos\\FIS\\fis\\forms\\payrolllistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\payrolllistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|C:\\Users\\manoj\\source\\repos\\FIS\\fis\\forms\\customerbilllistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\customerbilllistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|C:\\Users\\manoj\\source\\repos\\FIS\\fis\\forms\\vendorlistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\vendorlistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|C:\\Users\\manoj\\source\\repos\\FIS\\fis\\forms\\vendorlistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\vendorlistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|C:\\Users\\manoj\\source\\repos\\FIS\\fis\\forms\\vendordetailpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\vendordetailpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|C:\\Users\\manoj\\source\\repos\\FIS\\fis\\forms\\vendordetailpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\vendordetailpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|C:\\Users\\manoj\\source\\repos\\FIS\\fis\\forms\\invoicelistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\invoicelistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|C:\\Users\\manoj\\source\\repos\\FIS\\fis\\forms\\invoicelistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\invoicelistpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|C:\\Users\\manoj\\source\\repos\\FIS\\fis\\forms\\invoicedetailpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\forms\\invoicedetailpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|c:\\users\\manoj\\source\\repos\\fis\\fis\\database\\scripts\\fis_seed_data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{63EE2DA5-D447-4FFD-BE26-8F6180768D61}|FIS\\FIS.csproj|solutionrelative:fis\\database\\scripts\\fis_seed_data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,289 +22,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomerOrderListPanel.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\CustomerOrderListPanel.cs",
-              "RelativeDocumentMoniker": "FIS\\Forms\\CustomerOrderListPanel.cs",
-              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\CustomerOrderListPanel.cs [Design]",
-              "RelativeToolTip": "FIS\\Forms\\CustomerOrderListPanel.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:55:21.212Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomerBillListPanel.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\CustomerBillListPanel.cs",
-              "RelativeDocumentMoniker": "FIS\\Forms\\CustomerBillListPanel.cs",
-              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\CustomerBillListPanel.cs [Design]",
-              "RelativeToolTip": "FIS\\Forms\\CustomerBillListPanel.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:55:20.648Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CustomerBillDetailPanel.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\CustomerBillDetailPanel.cs",
-              "RelativeDocumentMoniker": "FIS\\Forms\\CustomerBillDetailPanel.cs",
-              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\CustomerBillDetailPanel.cs [Design]",
-              "RelativeToolTip": "FIS\\Forms\\CustomerBillDetailPanel.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:47:47.85Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ARReportPanel.cs",
-              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\ARReportPanel.cs",
-              "RelativeDocumentMoniker": "FIS\\Forms\\ARReportPanel.cs",
-              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\ARReportPanel.cs",
-              "RelativeToolTip": "FIS\\Forms\\ARReportPanel.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:47:44.742Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CustomerOrderListPanel.cs",
-              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\CustomerOrderListPanel.cs",
-              "RelativeDocumentMoniker": "FIS\\Forms\\CustomerOrderListPanel.cs",
-              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\CustomerOrderListPanel.cs",
-              "RelativeToolTip": "FIS\\Forms\\CustomerOrderListPanel.cs",
-              "ViewState": "AgIAAF0BAAAAAAAAAAAYwG4BAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:46:59.778Z",
+              "Title": "fis_seed_data.sql ",
+              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Database\\Scripts\\fis_seed_data.sql",
+              "RelativeDocumentMoniker": "FIS\\Database\\Scripts\\fis_seed_data.sql",
+              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Database\\Scripts\\fis_seed_data.sql",
+              "RelativeToolTip": "FIS\\Database\\Scripts\\fis_seed_data.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-04-17T03:02:07.02Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RawMaterialDetailPanel.cs",
-              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\RawMaterialDetailPanel.cs",
-              "RelativeDocumentMoniker": "FIS\\Forms\\RawMaterialDetailPanel.cs",
-              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\RawMaterialDetailPanel.cs",
-              "RelativeToolTip": "FIS\\Forms\\RawMaterialDetailPanel.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAArwDwAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:48:34.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RawMaterialListPanel.cs",
-              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\RawMaterialListPanel.cs",
-              "RelativeDocumentMoniker": "FIS\\Forms\\RawMaterialListPanel.cs",
-              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\RawMaterialListPanel.cs",
-              "RelativeToolTip": "FIS\\Forms\\RawMaterialListPanel.cs",
-              "ViewState": "AgIAAAUBAAAAAAAAAIA+wBQBAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:46:43.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RawMaterialDetailPanel.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\RawMaterialDetailPanel.cs",
-              "RelativeDocumentMoniker": "FIS\\Forms\\RawMaterialDetailPanel.cs",
-              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\RawMaterialDetailPanel.cs [Design]",
-              "RelativeToolTip": "FIS\\Forms\\RawMaterialDetailPanel.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:48:50.426Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RawMaterialListPanel.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\RawMaterialListPanel.cs",
-              "RelativeDocumentMoniker": "FIS\\Forms\\RawMaterialListPanel.cs",
-              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\RawMaterialListPanel.cs [Design]",
-              "RelativeToolTip": "FIS\\Forms\\RawMaterialListPanel.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:50:14.067Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ARReportPanel.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\ARReportPanel.cs",
-              "RelativeDocumentMoniker": "FIS\\Forms\\ARReportPanel.cs",
-              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\ARReportPanel.cs [Design]",
-              "RelativeToolTip": "FIS\\Forms\\ARReportPanel.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:47:43.592Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "APReportPanel.cs",
-              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\APReportPanel.cs",
-              "RelativeDocumentMoniker": "FIS\\Forms\\APReportPanel.cs",
-              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\APReportPanel.cs",
-              "RelativeToolTip": "FIS\\Forms\\APReportPanel.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:47:41.249Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PurchaseOrderListPanel.cs",
-              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\PurchaseOrderListPanel.cs",
-              "RelativeDocumentMoniker": "FIS\\Forms\\PurchaseOrderListPanel.cs",
-              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\PurchaseOrderListPanel.cs",
-              "RelativeToolTip": "FIS\\Forms\\PurchaseOrderListPanel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:47:23.857Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "APReportPanel.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\APReportPanel.cs",
-              "RelativeDocumentMoniker": "FIS\\Forms\\APReportPanel.cs",
-              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\APReportPanel.cs [Design]",
-              "RelativeToolTip": "FIS\\Forms\\APReportPanel.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:47:38.154Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CustomerBillDetailPanel.cs",
-              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\CustomerBillDetailPanel.cs",
-              "RelativeDocumentMoniker": "FIS\\Forms\\CustomerBillDetailPanel.cs",
-              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\CustomerBillDetailPanel.cs",
-              "RelativeToolTip": "FIS\\Forms\\CustomerBillDetailPanel.cs",
-              "ViewState": "AgIAADkBAAAAAAAAAAAswFYBAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:43:24.821Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PaymentPreferencePanel.cs",
-              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\PaymentPreferencePanel.cs",
-              "RelativeDocumentMoniker": "FIS\\Forms\\PaymentPreferencePanel.cs",
-              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\PaymentPreferencePanel.cs",
-              "RelativeToolTip": "FIS\\Forms\\PaymentPreferencePanel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:44:25.833Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PayrollListPanel.cs",
-              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\PayrollListPanel.cs",
-              "RelativeDocumentMoniker": "FIS\\Forms\\PayrollListPanel.cs",
-              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\PayrollListPanel.cs",
-              "RelativeToolTip": "FIS\\Forms\\PayrollListPanel.cs",
-              "ViewState": "AgIAAAMBAAAAAAAAAAAswCABAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:44:15.345Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CustomerBillListPanel.cs",
-              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\CustomerBillListPanel.cs",
-              "RelativeDocumentMoniker": "FIS\\Forms\\CustomerBillListPanel.cs",
-              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\CustomerBillListPanel.cs",
-              "RelativeToolTip": "FIS\\Forms\\CustomerBillListPanel.cs",
-              "ViewState": "AgIAACIBAAAAAAAAAAAswD8BAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:41:11.36Z",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\App.config",
+              "RelativeDocumentMoniker": "FIS\\App.config",
+              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\App.config",
+              "RelativeToolTip": "FIS\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-04-17T02:56:45.912Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "VendorListPanel.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\VendorListPanel.cs",
-              "RelativeDocumentMoniker": "FIS\\Forms\\VendorListPanel.cs",
-              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\VendorListPanel.cs [Design]",
-              "RelativeToolTip": "FIS\\Forms\\VendorListPanel.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:38:56.395Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "VendorDetailPanel.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\VendorDetailPanel.cs",
-              "RelativeDocumentMoniker": "FIS\\Forms\\VendorDetailPanel.cs",
-              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\VendorDetailPanel.cs [Design]",
-              "RelativeToolTip": "FIS\\Forms\\VendorDetailPanel.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:38:55.968Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "VendorDetailPanel.cs",
-              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\VendorDetailPanel.cs",
-              "RelativeDocumentMoniker": "FIS\\Forms\\VendorDetailPanel.cs",
-              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\VendorDetailPanel.cs",
-              "RelativeToolTip": "FIS\\Forms\\VendorDetailPanel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:36:40.293Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "VendorListPanel.cs",
-              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\VendorListPanel.cs",
-              "RelativeDocumentMoniker": "FIS\\Forms\\VendorListPanel.cs",
-              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\VendorListPanel.cs",
-              "RelativeToolTip": "FIS\\Forms\\VendorListPanel.cs",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAvwLwAAABhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:36:21.763Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "InvoiceListPanel.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\InvoiceListPanel.cs",
-              "RelativeDocumentMoniker": "FIS\\Forms\\InvoiceListPanel.cs",
-              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\InvoiceListPanel.cs [Design]",
-              "RelativeToolTip": "FIS\\Forms\\InvoiceListPanel.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:35:07.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "InvoiceDetailPanel.cs",
-              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\InvoiceDetailPanel.cs",
-              "RelativeDocumentMoniker": "FIS\\Forms\\InvoiceDetailPanel.cs",
-              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\InvoiceDetailPanel.cs",
-              "RelativeToolTip": "FIS\\Forms\\InvoiceDetailPanel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:31:03.348Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "InvoiceListPanel.cs",
-              "DocumentMoniker": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\InvoiceListPanel.cs",
-              "RelativeDocumentMoniker": "FIS\\Forms\\InvoiceListPanel.cs",
-              "ToolTip": "C:\\Users\\manoj\\source\\repos\\FIS\\FIS\\Forms\\InvoiceListPanel.cs",
-              "RelativeToolTip": "FIS\\Forms\\InvoiceListPanel.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAYwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:23:23.348Z"
             }
           ]
         }
